@@ -1,0 +1,16 @@
+{
+    "name": "irina_s/hexlet-php",
+    "description": "my test project",
+    "autoload": {
+        "psr-4": {
+            "IrinaS\\HexletPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "semyanskikh-im",
+            "email": "semyanskikh@gmail.com"
+        }
+    ],
+    "require": {}
+}
