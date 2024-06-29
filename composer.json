@@ -4,7 +4,10 @@
     "autoload": {
         "psr-4": {
             "IrinaS\\HexletPhp\\": "src/"
-        }
+        },
+        "files": [
+            "src/Runner.php"
+        ]
     },
     "authors": [
         {
@@ -12,5 +15,13 @@
             "email": "semyanskikh@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "illuminate/collections": "^10.48"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.10"
+    },
+    "scripts": {
+        "phpcs": "phpcs"
+    }
 }
