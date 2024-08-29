@@ -17,7 +17,8 @@
         }
     ],
     "require": {
-        "illuminate/collections": "^10.48"
+        "illuminate/collections": "^10.48",
+        "webmozart/assert": "^1.11"
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.10"
