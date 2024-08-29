@@ -6,7 +6,8 @@
             "IrinaS\\HexletPhp\\": "src/"
         },
         "files": [
-            "src/Runner.php"
+            "src/Runner.php",
+            "src/StringUtils.php"
         ]
     },
     "authors": [
